@@ -1,0 +1,78 @@
+.heading{
+    font-size:35px;
+     text-transform: uppercase
+}
+.intro{
+    
+    background-color: #dcf861;
+    color: #69b0e4;
+    padding-left: 16px
+    padding-bottom: 7px;
+    margin-bottom: 3px;
+}
+body{
+    
+        font-family:arial,sans-serif,calibri;
+    
+}
+.prof{
+   font-size:25px;
+    font-weight:bold;
+}
+.contactinfo{
+   font-size:25px;
+   font-weight:bold;
+    color:color: #2F5A78;
+    padding-left: 16px
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*background-color:green;*/
+    background-color: #eeeeee;
+}
+.subheading{
+  font-size:25px;
+  font-weight:bold;
+  color: #2F5A78;
+   text-transform: uppercase
+   padding-left: 16px
+    
+}
+.date{
+
+    font-size:25px;
+  font-weight:bolder ;
+  color: #2F5A78;
+    
+    
+}
+.skills ul li{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+}
+.skills ul li .skill_prog{
+    width: 60%;
+    height: 5px;
+    position: relative;
+}
+.skills ul li .skill_prog span{
+    position: absolute;
+    height: 100%;   
+    background: #2F5A78;
+    padding-right: 50px;
+}
+.skill_name{
+   /* width: 1px;*/
+}
+.skill_per{
+    margin-right: 3.5px;
+}
+img{
+    float: right;
+}
+.icon{
+    float: left;
+    color: #2F5A78;
+}
